@@ -50,7 +50,7 @@ No dependencies need to be installed.
 
 ## Before publishing
 
-- The page links to `Masud_Adebiyi_React_Frontend_Developer_CV.pdf`. Make sure that PDF is added at the repository root so the CV download works.
+- The CV download link points to `Masud_Adebiyi_React_Frontend_Developer_CV.pdf`; this file is not currently present in the repository and must be added before launch.
 - Test navigation, theme switching, project links, contact links, and the CV download.
 - Check the layout on mobile and desktop.
 
@@ -62,3 +62,16 @@ No dependencies need to be installed.
 ---
 
 Maintained by **Young MSD**.
+
+
+## Search engine and launch readiness
+
+The page includes a descriptive title and meta description, Open Graph/Twitter sharing metadata, structured person information (JSON-LD), and a basic `robots.txt`.
+
+Before launch on a public domain:
+- Set the canonical URL and add a sitemap using the final HTTPS domain.
+- Verify the domain in Google Search Console and submit the sitemap.
+- Add a final social-sharing image with appropriate rights and descriptive alt text.
+- Test all navigation, contact actions, image loading, and downloads on mobile and desktop.
+
+Search engines decide when and whether to index a site; metadata improves clarity but does not guarantee ranking or immediate appearance in results.
