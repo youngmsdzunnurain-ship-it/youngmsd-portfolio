@@ -145,3 +145,6 @@ input:focus,textarea:focus{outline:none;border-color:#fff;background:#ffffff3d}
 @media (max-width:820px){.ct{grid-template-columns:1fr}}
 footer{padding:2.5rem 0;color:var(--mute);font-size:.9rem;text-align:center}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}#ld{display:none}h1 .ch,.hero .in,.orbit,[data-r]{opacity:1;transform:none}.pos b{transform:translate(-50%,-50%)}}
+
+/* Accessibility: visible form labels and comfortable focus targets */
+#contact form label{display:block;font-weight:600;margin:.35rem 0 -.45rem}#contact input,#contact textarea{min-height:48px}
