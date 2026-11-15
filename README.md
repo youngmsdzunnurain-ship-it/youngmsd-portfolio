@@ -75,3 +75,7 @@ Before launch on a public domain:
 - Test all navigation, contact actions, image loading, and downloads on mobile and desktop.
 
 Search engines decide when and whether to index a site; metadata improves clarity but does not guarantee ranking or immediate appearance in results.
+
+
+## Privacy and accessibility
+A privacy notice is available at `privacy.html`. The contact form opens the visitor’s configured email app; this static site does not store submitted messages. Form fields have explicit labels and project images are marked for asynchronous decoding and lazy loading.
